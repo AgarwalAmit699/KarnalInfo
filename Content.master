@@ -1,0 +1,157 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Content.master.cs" Inherits="Content" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Karnal.Info</title>
+
+
+
+<link rel="stylesheet" href="css/reset.css" type="text/css" />
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<div id="fb-root"></div>
+<div id="Div1"></div>
+<script>    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=355725681239075&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));</script>
+
+<%--<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />--%>
+<style type="text/css">
+    textarea
+    { 
+        resize:none;
+    }
+</style>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="container">
+
+    <header> 
+	<div class="width">
+    		
+
+		<h1><a href="Default.aspx">Karnal<strong>.Info</strong></a></h1>
+
+		<nav>
+	
+    			<ul class="sf-menu dropdown">
+
+			
+        			<li><a href="Default.aspx">Home</a></li>
+
+            			<li>
+
+					<a href="Categories.aspx">Categories</a>
+            			
+					<ul>
+                				    <li><a href="Categories/AgricultureTools.aspx">Agriculture Tools</a></li>
+						            <li><a href="Categories/Astrology.aspx">Astrology</a></li>
+                    				<li><a href="Categories/Automobile.aspx">Automobile</a></li>
+                                    <li><a href="Categories/AutomobileSalePurchase.aspx">Automobile Sale/Purchase</a></li>
+						            <li><a href="Categories/AdvertisingAgencies.aspx">Advertising Agencies</a></li>
+                    				<li><a href="Categories/AluminiumWorks.aspx">Aluminium Works</a></li>
+                                    <li><a href="Categories/AyurvedicMedicine.aspx">Ayurvedic Medicine</a></li>
+						            <li><a href="Categories/ATMCenters.aspx">ATM Centers</a></li>
+                    				<li><a href="Categories/Advocate.aspx">Advocate</a></li>
+                                    <li><a href="Categories.aspx">More>></a></li>
+                			</ul>
+
+            			</li>
+                      <li><a href="Jobs.aspx">Jobs</a></li>
+	     			<li><a href="Advertise.aspx">Advertise with Us</a></li>
+       			</ul>
+
+			
+			<div class="clear"></div>
+    		</nav>
+       	</div>
+        <div class="clear"></div>
+       
+    </header>
+  
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+ <footer>
+        <div class="footer-content width">
+            <ul>
+            	<li><h4>City Links</h4></li>
+                <li><a href="http://www.karnal.nic.in/index.html">NIC Karnal</a></li>
+                <li><a href="http://haryanajudiciary.gov.in/?trs=karnal">District Courts</a></li>
+                <li><a href="http://karnal.haryanapolice.gov.in/">Karnal Police</a></li>
+                <li><a href="http://nagarnigamkarnal.com/">Nagar Nigam</a></li>
+            </ul>
+            
+            <ul>
+            	<li><h4>Pages</h4></li><span class="fa-inverse">
+                <li><a href="http://karnal.info">Home</a></li>
+                <li><a href="http://karnal.info/Jobs.aspx">Latest Jobs</a></li>
+                <li><a href="http://karnal.info/Categories.aspx">Companies/Shops</a></li>
+                <li><a href="http://karnal.info/Advertise.aspx">Advertise with Us</a></li></span>
+                
+            </ul>
+
+ 	    <ul>
+                
+                <li><div class="fb-like-box" data-href="https://www.facebook.com/karnalinformation" data-width="200" data-height="210" data-colorscheme="dark" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+            </li></ul>
+            
+            <ul class="endfooter">
+            	<li><h4>Contact Us</h4></li>
+                <li>
+                    <span class="fa-inverse">For more queries Contact Us at :
+                contact@karnal.info<br />
+                +91 9017156555
+                <br />
+                <br />
+
+</span>
+
+<div class="social-icons">
+
+<a href="https://www.facebook.com/karnalinformation"><i class="fa fa-facebook fa-2x"></i></a>
+
+<a href="https://twitter.com/InfoKarnal"><i class="fa fa-twitter fa-2x"></i></a>
+
+<a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+
+<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+
+</div>
+
+</li>
+            </ul>
+            
+            <div class="clear"></div>
+        </div>
+       <div class="footer-bottom">
+            <p> Copyright &copy; 2014 By <a href="http://karnal.info/">Karnal.Info</a><span style="color: #DA4C56"><em style="font-size: 90%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Karnal.info is not responsible if Information made 
+    available on this site is not accurate.</em></span></p>
+         </div>
+    </footer>
+</div>
+    </form>
+</body>
+</html>
